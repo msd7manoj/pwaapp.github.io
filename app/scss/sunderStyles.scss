@@ -1,0 +1,578 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, table, tr, td { margin:0px; }
+.container { max-width:1060px; width:100%; }
+
+.section {  width:100%; clear:both; overflow:hidden; padding-top:50px; padding-bottom:50px; }
+.bggrey { background-color:#F9F9F9;
+}
+.bgwhite { background-color:#FFFFFF }
+.greyheading { font-size:22px; line-height:22px; font-weight:700;color: #8A93A5; padding-bottom:10px; }
+h2.homeheader2 { font-size:48px; line-height:48px; font-weight:700;color: #233253;padding-bottom:10px; }
+h2.homeheader2 + span +  p, h2.homeheader2 + p { font-size:16px; line-height:22px; font-weight:400;color: #8A93A5;padding-bottom:20px; }
+.btnred, .btnred:hover { background: #ED1C24; color:#FFFFFF;  font-size:12px; line-height:20px; font-weight:600; border:1px solid #ED1C24 }
+.abtboxholder {border: 2px solid #C7CACC; background: #FFFFFF; padding:20px 15px 20px 15px; margin-bottom:10px;}
+.abtboxholder:before{ width:2px; height:100px; background-color:red; content:""; position:absolute; left:15px; top:0; }
+.abtboxholder h6, .mob-abt h6 { font-size:16px; line-height:22px; font-weight:400;color: #8A93A5; text-transform: uppercase;padding-bottom:20px; }
+.col-sm-4 .abtboxholder h6, , .mob-abt h6 {padding-top:10px;}
+.abtboxholder h4,  .mob-abt h4 { font-size:22px; line-height:28px; font-weight:800;color: #233253;padding-bottom:0px;   }
+.abtboxholder p, .mob-abt p { font-size:16px; line-height:22px; font-weight:400;color: #8A93A5; } 
+.abtboxbig {border: 2px solid #C7CACC; background: #FFFFFF; padding:0px; margin-bottom:10px; display: block; clear:both; overflow:hidden; }
+.abtboxbig:before{ width:2px; height:100px; background-color:red; content:""; position:absolute; left:15px; top:0; }
+.abtboxbig .imgholder { float:left; width:40%; }
+.abtboxbig .abtbigrt { float:left; width:60%; padding:20px; }
+.abtboxbig h6 { font-size:16px; line-height:22px; font-weight:400;color: #8A93A5; text-transform: uppercase; padding-bottom:10px; }
+.abtboxbig h4 { font-size:28px; line-height:28px; font-weight:800;color: #233253; padding-bottom:10px;   }
+.abtboxbig p { font-size:16px; line-height:22px; font-weight:400;color: #8A93A5; } 
+.abtboxRt { background-color: grey; height:100%; }
+.settle h4 { font-size:26px; line-height:28px; font-weight:800;color: #233253; padding-top:30px;}
+.settle p { font-size:14px; line-height:20px; color: #8a93a5; }
+.bg1 { padding:20px; position:relative;  }
+.bg1 * { color:#FFF; }
+.bg1  h4 { font-size:22px; line-height:28px; font-weight:800; }
+.bg1  h6 { font-size:16px; line-height:22px; padding-bottom:10px; }
+.bg1 div {bottom:20px; position:absolute;}
+.bg2 { padding:20px; position:relative;  }
+.bg2 * { color:#FFF; }
+.bg2  h4 { font-size:22px; line-height:28px; font-weight:800; }
+.bg2  h6 { font-size:16px; line-height:22px; padding-bottom:10px; }
+.bg2 div {bottom:20px; position:absolute;}
+.panel-title a {  font-size:22px; line-height:28px; font-weight:800;color: #767676; }
+
+
+
+
+
+
+
+.hght100 { height:100%; }
+.width100 {width:100%;}
+
+.padtop10 { padding-top:10px; }
+.mtop20 { margin-top:20px; }
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#carouselExampleIndicators .carousel-indicators { right:10px !important; left:auto; bottom:auto; top:50%; margin:0px; width:auto; display:block; }
+.carousel-caption { bottom:auto; top:10%; left:5%; text-align:left; }
+.carousel-indicators li { width:10px; height:10px; border-radius:5px !important; border:none !important;margin-bottom:10px; }
+.settle-top { padding-top:30px; }
+.plans-wrapper { text-align:center; width:100% }
+.plans-holder { background-color:#FFFFFF; display:inline-block; border-radius:10px; padding:10px; width:30%; margin:0px 3px 12px 3px; }
+.plans-holder h5 { font-weight:600; font-size:14px; color: #ED1C24; }
+.plans-holder h5 span { color: #005e9e; }
+.bannerh2 + p { font-size: 16px;
+line-height: 22px;
+font-weight: 400;
+color: #8A93A5;
+padding-bottom: 20px; }
+.bannerh2 {
+font-size: 48px;
+line-height: 48px;
+font-weight: 700;
+color: #233253;
+padding-bottom: 10px;}
+.bannerh5 {font-size: 22px;
+line-height: 22px;
+font-weight: 700;
+color: #8A93A5;
+padding-bottom: 10px;}
+
+.bottom-scroll { clear:both; width:80%; height:300px; padding-top:100px; position:absolute; overflow-x:hidden !important; overflow-y:auto !important; bottom:10px; z-index:999 } 
+.bottom-scroll .plans-holder { width:100%; }
+.bottom-scroll .plans-holder:hover { margin-top:-15px; }
+.bottom-scroll .swiper-slide { background:transparent; }
+.swiper-button-next::after, .swiper-button-prev::after { opacity:1.0 !important !important; font-size:0px !important; font-family:none !important; width:80px !important; }
+.swiper-button-next  { right:40px !important; top:180px !important }
+.viewall  { right:0px !important; top:145px !important; position:absolute; width:70px; z-index:99999; }
+.viewall  img { width:100%; }
+.swiper-button-next img { width:200%; }
+.swiper-button-prev  { left:40px !important; top:180px !important }
+.swiper-button-prev img { width:200%; }
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled { opacity:1.0 !important }
+.sub.swiper-button-next { top:auto !important; width:28px; left:68%; bottom:10px !important }
+.sub.swiper-button-prev { top:auto !important; width:28px !important; left:23% !important; bottom:10px !important }
+.swiper-pagination-bullet-active { background-color:#005e9e !important }
+
+@media (min-width:768px){
+	.mob-hide { display:block !important; }
+	.desk-block{display:none !important; }
+}
+@media (max-width:767px){
+	.mob-hide { display:none !important; }
+	.desk-block{display:block !important; }
+	.mtop10 { margin-top:5px !important; }
+
+}
+
+
+
+
+@media (max-width:767px){ 
+.greyheading { font-size:16px; text-align:center }
+h2.homeheader2 { font-size:24px; text-align:center; line-height:30px; }
+h2.homeheader2 + span + p,  h2.homeheader2 + p  { text-align:center; font-size:14px; padding-top:15px; }
+h2.homeheader2 + span + p + button { margin:0 auto; display:block }
+	.settle-top { padding-top:0px; }
+	.settle h4, .settle p { text-align:center }
+	.imgholder { width:100% !important }
+	.abtboxbig::before { display:none; }
+	.imgholder .desk-block { position:absolute; bottom:0; padding:20px; }
+	.abtboxbig h4, .abtboxbig h6 { color:#FFFFFF; text-align:left }
+	.abtboxbig h4 { font-size:16px; line-height:19px; }
+	 .abtboxbig h6 { font-size:14px; line-height:17px; }
+	 .bg1, .bg2 { height:200px !important; }
+	 .bg1 h4, .bg2 h4 { font-size:16px; line-height:19px; }
+	 .mob-abt { text-align:center !important }
+	 .carousel-item { min-height:auto !important; height:300px; }
+	 .bottom-scroll { display:none; }
+
+}
+
+
+
+/*Illustration css */
+
+.bg-Do_you_need { display:inline-block; width: 446px; height: 332px; background: url('../app/images/home-images/homeillustrationSprite.png') -10px -10px; } 
+.bg-Covid_19_Coverage { display:inline-block; width: 365px; height: 253px; background: url('../app/images/home-images/homeillustrationSprite.png') -10px -362px; }  
+.bg-Talk_to_an_Advisor_right_away { display:inline-block; width: 376px; height: 330px;  
+  background: url('../app/images/home-images/homeillustrationSprite.png') -476px -10px; 
+}
+
+
+
+/* Home Spriteicons */
+
+
+.bg-About_Us {
+    display:inline-block;
+    width: 78px; height: 78px;
+    background: url('../app/images/home-images/homeiconSprite.png') -508px -310px;
+}
+
+
+
+.bg-Android {
+    display:inline-block;
+    width: 28px; height: 28px;
+    background: url('../app/images/home-images/homeiconSprite.png') -10px -527px;
+}
+
+
+
+.bg-Apple {
+    display:inline-block;
+    width: 28px; height: 29px;
+    background: url('../app/images/home-images/homeiconSprite.png') -552px -429px;
+}
+
+
+
+.bg-Asset_management {
+    display:inline-block;
+    width: 80px; height: 80px;
+    background: url('../app/images/home-images/homeiconSprite.png') -236px -316px;
+}
+
+
+
+.bg-BFSI_Awards {
+    display:inline-block;
+    width: 173px; height: 173px;
+    background: url('../app/images/home-images/homeiconSprite.png') -10px -10px;
+}
+
+
+
+.bg-Branches {
+    display:inline-block;
+    width: 80px; height: 80px;
+    background: url('../app/images/home-images/homeiconSprite.png') -508px -10px;
+}
+
+
+
+.bg-Bullet {
+    display:inline-block;
+    width: 21px; height: 21px;
+    background: url('../app/images/home-images/homeiconSprite.png') -359px -527px;
+}
+
+
+
+.bg-call_header_hover {
+    display:inline-block;
+    width: 46px; height: 46px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -139px;
+}
+
+
+
+.bg-call_header {
+    display:inline-block;
+    width: 46px; height: 46px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -205px;
+}
+
+
+
+.bg-Cancel {
+    display:inline-block;
+    width: 14px; height: 14px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -50px;
+}
+
+
+
+.bg-Chat {
+    display:inline-block;
+    width: 63px; height: 66px;
+    background: url('../app/images/home-images/homeiconSprite.png') -336px -316px;
+}
+
+
+
+.bg-Childrens {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -203px -10px;
+}
+
+
+
+.bg-Customer {
+    display:inline-block;
+    width: 21px; height: 18px;
+    background: url('../app/images/home-images/homeiconSprite.png') -442px -527px;
+}
+
+
+
+.bg-Employee {
+    display:inline-block;
+    width: 17px; height: 20px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -10px;
+}
+
+
+
+.bg-FB {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -203px -123px;
+}
+
+
+
+.bg-Fund_Performance {
+    display:inline-block;
+    width: 78px; height: 78px;
+    background: url('../app/images/home-images/homeiconSprite.png') -10px -429px;
+}
+
+
+
+.bg-Group {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -10px -203px;
+}
+
+
+
+.bg-HDFC_logo {
+    display:inline-block;
+    width: 87px; height: 57px;
+    background: url('../app/images/home-images/homeiconSprite.png') -316px -236px;
+}
+
+
+
+.bg-Health {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -123px -203px;
+}
+
+
+
+.bg-Instagram {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -236px -203px;
+}
+ 
+.bg-Knowledge_Center {
+    display:inline-block;
+    width: 78px; height: 78px;
+    background: url('../app/images/home-images/homeiconSprite.png') -108px -429px;
+}
+ 
+
+.bg-Language {
+    display:inline-block;
+    width: 53px; height: 34px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -271px;
+}
+
+ 
+
+.bg-Language_1 {
+    display:inline-block;
+    width: 52px; height: 34px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -325px;
+}
+ 
+
+.bg-Linkedin {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -304px -429px;
+}
+  
+
+.bg-Lives_insured {
+    display:inline-block;
+    width: 80px; height: 80px;
+    background: url('../app/images/home-images/homeiconSprite.png') -508px -110px;
+}
+
+ 
+
+.bg-Login_hover {
+    display:inline-block;
+    width: 30px; height: 30px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -379px;
+}
+
+ 
+
+.bg-Login {
+    display:inline-block;
+    width: 30px; height: 30px;
+    background: url('../app/images/home-images/homeiconSprite.png') -265px -123px;
+}
+
+ 
+
+.bg-menu {
+    display:inline-block;
+    width: 24px; height: 14px;
+    background: url('../app/images/home-images/homeiconSprite.png') -350px -491px;
+}
+
+ 
+
+.bg-mouse_cursor {
+    display:inline-block;
+    width: 59px; height: 109px;
+    background: url('../app/images/home-images/homeiconSprite.png') -429px -10px;
+}
+
+ 
+
+.bg-Online_Call {
+    display:inline-block;
+    width: 22px; height: 22px;
+    background: url('../app/images/home-images/homeiconSprite.png') -233px -527px;
+}
+
+ 
+
+.bg-Online_Email {
+    display:inline-block;
+    width: 20px; height: 17px;
+    background: url('../app/images/home-images/homeiconSprite.png') -483px -527px;
+}
+
+ 
+
+.bg-Online_Request_call_back {
+    display:inline-block;
+    width: 22px; height: 22px;
+    background: url('../app/images/home-images/homeiconSprite.png') -275px -527px;
+}
+
+ 
+
+.bg-Online_sms {
+    display:inline-block;
+    width: 22px; height: 22px;
+    background: url('../app/images/home-images/homeiconSprite.png') -317px -527px;
+}
+
+ 
+
+.bg-Partner {
+    display:inline-block;
+    width: 26px; height: 15px;
+    background: url('../app/images/home-images/homeiconSprite.png') -304px -491px;
+}
+
+ 
+
+.bg-Policy_Whatsapp {
+    display:inline-block;
+    width: 23px; height: 24px;
+    background: url('../app/images/home-images/homeiconSprite.png') -190px -527px;
+}
+
+ 
+
+.bg-Retirement {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -316px -10px;
+}
+
+ 
+
+.bg-Savings {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -316px -123px;
+}
+
+ 
+
+.bg-search_hover {
+    display:inline-block;
+    width: 13px; height: 13px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -84px;
+}
+
+ 
+
+.bg-search {
+    display:inline-block;
+    width: 30px; height: 30px;
+    background: url('../app/images/home-images/homeiconSprite.png') -236px -265px;
+}
+
+ 
+
+.bg-hand_cursor {
+    display:inline-block;
+    width: 24px; height: 24px;
+    background: url('../app/images/home-images/homeiconSprite.png') -58px -527px;
+}
+
+ 
+
+.bg-see_more_arrow {
+    display:inline-block;
+    width: 17px; height: 8px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -117px;
+}
+
+ 
+
+.bg-Slideshare {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -366px -429px;
+}
+
+ 
+
+.bg-Speaker {
+    display:inline-block;
+    width: 22px; height: 19px;
+    background: url('../app/images/home-images/homeiconSprite.png') -400px -527px;
+}
+
+ 
+
+.bg-Star_no_filled {
+    display:inline-block;
+    width: 12px; height: 12px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -145px;
+}
+
+ 
+
+.bg-star_filled {
+    display:inline-block;
+    width: 12px; height: 12px;
+    background: url('../app/images/home-images/homeiconSprite.png') -608px -177px;
+}
+
+ 
+
+.bg-Subscripe_failed {
+    display:inline-block;
+    width: 24px; height: 24px;
+    background: url('../app/images/home-images/homeiconSprite.png') -102px -527px;
+}
+
+ 
+
+.bg-Subscripe_sucess {
+    display:inline-block;
+    width: 24px; height: 24px;
+    background: url('../app/images/home-images/homeiconSprite.png') -146px -527px;
+}
+
+ 
+
+.bg-Sum_assuredsvg {
+    display:inline-block;
+    width: 80px; height: 80px;
+    background: url('../app/images/home-images/homeiconSprite.png') -508px -210px;
+}
+
+ 
+
+.bg-Term_plans {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -10px -316px;
+}
+
+ 
+
+.bg-Tools_and_Calculators {
+    display:inline-block;
+    width: 78px; height: 78px;
+    background: url('../app/images/home-images/homeiconSprite.png') -206px -429px;
+}
+
+ 
+
+.bg-Twitter {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -428px -429px;
+}
+
+ 
+
+.bg-Ulip {
+    display:inline-block;
+    width: 93px; height: 93px;
+    background: url('../app/images/home-images/homeiconSprite.png') -123px -316px;
+}
+
+ 
+
+.bg-Youtube {
+    display:inline-block;
+    width: 42px; height: 42px;
+    background: url('../app/images/home-images/homeiconSprite.png') -490px -429px;
+}
+.bg1 {
+    display:inline-block; 
+    width: 100%;
+    height:95%;
+    background: url('../app/images/home-images/homebg1.jpg') 0px 0px;
+}
+.bg2 {
+    display:inline-block; 
+    width: 100%;
+    height:95%;
+    background: url('../app/images/home-images/homebg2.jpg') 0px 0px;
+}

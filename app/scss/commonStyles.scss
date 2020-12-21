@@ -1,0 +1,248 @@
+//App Custom Variable 
+@import "custom-variable";
+//Include mixins
+@import "utils";
+body, html {
+    font-family: $fontFamily;
+}
+a,a:hover {
+    text-decoration: none;
+}
+input, input:focus, input:active
+button, button:focus, button:active {
+    outline: none;
+}
+ul {
+    @include resetList;
+}
+
+/* Clearfix */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+/* Accordion */
+.accordion-section {
+  padding: 80px 0;
+  background: #fff;
+  .accordion-title-wrap {
+    margin-bottom: 40px;
+    h2 {
+      color: $primaryBlue;
+      font-size: 48px;
+      line-height: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 500;
+      color: $grayText;
+      text-align: center;
+    }
+  }
+  .cust-accordion {
+    position: relative;
+    border: 1px solid #C7CACC;
+    padding: 20px 80px 20px 90px;
+    margin-bottom: 9px;
+    .accordion-head {
+      cursor: pointer;
+      h3 {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        color: $primaryBlue;
+        margin-bottom: 0;
+        padding-top: 2px;
+      }
+      .acc-arrow {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid $primaryRed;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+      }
+    }
+    .acc-count {
+      font-size: 16px;
+      font-weight: 600;
+      color: $secondaryBlue;
+      position: absolute;
+      top: 9px;
+      left: 24px;
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+      border-radius: 50%;
+      text-align: center;
+      background: linear-gradient(180deg,rgba(237, 248, 255, 0) 0%, #EDF8FF 100%);
+    }
+    .accordion-content {
+      display: none;
+      font-size: 14px;
+      line-height: 22px;
+      color: #5a5a5a;
+      margin-top: 12px;
+    }
+    &.open {
+      padding-bottom: 5px;
+      @extend .border-top-left;
+    }
+  }
+}
+
+/* Title sec */
+.title-wrap {
+  text-align: center;
+  margin-bottom: 40px;
+  h5 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: $primaryBlue;
+    opacity: .5;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    color: $primaryBlue;
+  }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: $grayText;
+  }
+}
+.tab-content {
+  > div {
+    display: none;
+    &:first-child {
+      display: block;
+    }
+  }
+}
+.owl-carousel {
+  div.owl-nav {
+    button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: #fff;
+      top: 176px;
+      position: absolute;
+      &.owl-prev {
+        left: -56px;
+      }
+      &.owl-next {
+        right: -52px;
+      }
+      &.owl-next,
+      &.owl-prev {
+        background: #ED1C24;
+        box-shadow: 0px 12px 24px rgba(237, 28, 36, 0.3);
+      }
+      &.owl-next.disabled,
+      &.owl-prev.disabled {
+        background: #C7CACC;
+        box-shadow: 0px 12px 24px rgba(199, 202, 204, 0.3);
+      }
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
+.border-top-left {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100px;
+    background: $primaryRed;
+  }
+}
+.border-top-right {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    height: 100px;
+    background: $primaryRed;
+  }
+}
+.show-only-mobile {
+  display: none;
+}
+.more-button-dots {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: $primaryBlue;
+  width: 100px;
+  display: block;
+  span {
+    border: 1px solid $primaryRed;
+    border-radius: 12px;
+    width: 20px;
+    height: 13px;
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 3px;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 3px;
+      height: 3px;
+      background: $primaryRed;
+      border-radius: 50%;
+    }
+    &:after {
+      left: auto;
+      right: 4px;
+    }
+  }
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  @include wrapper;
+}
